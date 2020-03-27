@@ -1,0 +1,30 @@
+var n = Math.floor(Math.random()*6)+1
+
+
+var imag="dice"+n+".png";
+
+var ani="images/"+imag;
+
+var temp1=document.querySelectorAll("img")[0];
+
+temp1.setAttribute("src",ani);
+
+
+var x = Math.floor(Math.random()*6)+1
+
+
+var ima="dice"+x+".png";
+
+var an="images/"+ima;
+
+var temp2=document.querySelectorAll("img")[1];
+
+temp2.setAttribute("src",an);
+
+if (n>x) {
+  document.querySelector("h1").innerHTML="🚩 Player1 Won"
+}
+else {
+  document.querySelector("h1").innerHTML="🚩 Player2 Won"
+
+}
