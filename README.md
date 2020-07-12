@@ -8,6 +8,7 @@ This is basic game which could help you resolve daily tasks which include when u
 
 Hope u had fun...
 
+If you liked it Pls Hit a star button on the top...
 
 
 ##############################
